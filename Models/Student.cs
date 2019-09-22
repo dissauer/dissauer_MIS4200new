@@ -12,6 +12,6 @@ namespace dissauer_MIS4800.Models
         public string lastName { get; set; }
         public string email { get; set; }
         public string phone { get; set; }
-        public ICollection<StudentCourse> Courses { get; set; }
+        public ICollection<CourseDetail> CourseDetail { get; set; }
     }
 }
